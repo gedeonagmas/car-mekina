@@ -13,9 +13,9 @@ app.use(cors());
 app.use(express.json());
 app.use("/user", userRouter);
 
-app.listen(process.env.PORT, (err) => {
+app.listen(5000, (err) => {
   if (err) {
     console.log("server disconnected", err);
   }
-  console.log(`server connected on port ${process.env.PORT}`);
+  console.log(`server connected on port $5000}`);
 });
