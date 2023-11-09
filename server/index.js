@@ -17,7 +17,7 @@ app.get("/hello", (req, res, next) => {
   res.send("hello gedion it's working");
 });
 
-app.listen(5000, (err) => {
+app.listen(2000, (err) => {
   if (err) {
     console.log("server disconnected", err);
   }
